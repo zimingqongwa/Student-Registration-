@@ -1,0 +1,50 @@
+import java.util.Scanner; 
+ 
+   public class Registration { public static void main(String[] args) {
+   
+    System.out.println(" WELCOME TO MZAMMOTSHA SCHOOL")
+
+
+
+Scanner myObj = new Scanner(System.in);
+    
+     String name;
+  
+   System.out.println("Enter name");
+   name = myObj.nextLine();
+
+ System.out.println("name : " + name); 
+ 
+    String surname;
+    
+     
+   System.out.println("Enter Surname");
+   surname = myObj.nextLine();
+
+ System.out.println("Surname : " + surname);
+ 
+ String ge;
+ 
+   System.out.println("Enter student age");
+   age = myObj.nextLine();
+
+ System.out.println("age : " + age); 
+ 
+ 
+ String adress;
+ 
+    System.out.println("Enter adress:");
+    adress = myObj.nextLine();
+    
+  System.out.println("adress : " + adress);
+  
+ String student number;
+ 
+ System.out.println("Enter student number:");
+ int student number = myObj.nextInt();
+ 
+ System.out.println("student number : " + student number)
+ 
+ 
+   }
+}
